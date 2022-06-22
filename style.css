@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px
+}
+#text-keyboard{
+    text-align: center;
+    font-size: 4rem;
+}
+#keyboard--block{
+    width: 132rem;
+    height: 38.6rem;
+    background-color: #ccc;
+    margin: 5rem auto;
+    display: flex;
+    border: 0.1rem solid #000;
+    border-radius: 0.4rem;
+    position: relative;
+}
+#esc{
+    margin: 0.4rem;
+}
+.button--keyboard__esc{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0px 0 4px;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+}
+.button-keyboard{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardf{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0.1rem;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button--keyboard__backspace{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 10.4rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.block--key__small{
+    display: flex;
+}
+#f14{
+    margin: 0 5.4rem; 
+}
+#f58{
+    margin: 0 -1.6rem; 
+}
+#f912{
+    margin: 0 3.6rem;
+}
+.block--key__smallp{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+#lights{
+    margin: 1.8rem 0px 1.8rem 35px;;
+}
+.lightsmall{
+    font-size: 2rem;
+    padding: 0 2.8rem;
+}
+.button-keyboardtab{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 7.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.keyboardbig-block{
+    position: absolute;
+    top: 8rem;
+    left: 0.4rem;
+}
+.button-keyboardq{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardqh{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 8.4rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardqcl{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 10.6rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardqsh{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 13.4rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardqct{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 7.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardqctspace{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 29.4rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+#inspag{
+    top: -1.1rem;
+    position: absolute;
+    right: -19.6rem;
+}
+.button-keyboardup{
+   text-align: center;
+}
+#downup{
+    position: absolute;
+    top: 16.9rem;
+    right: -19.6rem;
+    display: block;
+}
+.button-keyboardresual{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 11.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardenter{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+.button-keyboardzezo{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 10.4rem;
+    height: 5.2rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+#keyboardnumber{
+    top: 0;
+    right: -40rem;
+    position: absolute;
+}
+#resual{
+    top: -4px;
+    position: absolute;
+    right: -56px;
+}
+.button-keyboardenter{
+    border: 0.1px solid #ccc ;
+    background-color: #000;
+    color: #fff;
+    width: 5.2rem;
+    height: 10.8rem;
+    border-radius: 0.4rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    padding: center 0;
+    font-size: 1.2rem;
+}
+#button-dots{
+    position: absolute;
+    top: 23.2rem;
+    left: 11rem;
+}
+.button-keyboarda{
+    margin: 0 1.2px;
+}
+.buttons{
+    background-color: #ccc;
+    color: #000;
+    border: 1px solid #000;
+}
+#root{
+    width: 132rem;
+    height: 7.6rem;
+    font-size: 6rem;
+    margin: 5rem auto;
+    display: flex;
+}
+.lightyellow{
+    color: yellow;
+}
